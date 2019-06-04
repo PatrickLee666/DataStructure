@@ -5,7 +5,7 @@ import java.util.Queue;
 import java.util.Stack;
 
 /**
- * @author 李俊锋
+ * @author lee
  * @date 2019/5/10 11:02
  */
 public class BST<E extends Comparable<E>> {
