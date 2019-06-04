@@ -1,0 +1,52 @@
+package struct.union_find;
+
+/**
+ * @author 李俊锋
+ * @date 2019/5/21 15:06
+ */
+//quick find实现
+public class UnionFind1 implements UF {
+
+    private int[] id;
+
+    public UnionFind1(int size){
+        id = new int[size];
+
+        for (int i = 0; i < id.length; i ++)
+            id[i] = i;
+    }
+
+    @Override
+    public int getSize(){
+        return id.length;
+    }
+
+    //查找元素p所对应的集合编号
+    public int find(int p){
+        if (p < 0 || p >= id.length)
+            throw new IllegalArgumentException("p is out of bound.");
+        return id[p];
+    }
+
+    //查看元素p和元素q是否所属一个集合 O(1)
+    @Override
+    public boolean isConnected(int p, int q){
+        return find(p) == find(q);
+    }
+
+    //合并并查集 O(n)
+    @Override
+    public void unionElements(int p, int q){
+        int pID = find(p);
+        int qID = find(q);
+
+        if (qID == pID)
+            return ;
+
+        for (int i = 0; i < id.length; i ++)
+            if (id[i] == pID)
+                id[i] = qID;
+
+    }
+
+}
