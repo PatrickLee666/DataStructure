@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 /**
- * @author 李俊锋
+ * @author lee
  * @date 2019/5/26 9:17
  */
+//动态数组
 public class Array<E> {
 
     private E[] data;

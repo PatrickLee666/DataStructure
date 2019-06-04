@@ -3,7 +3,7 @@ package struct.trie;
 import java.util.TreeMap;
 
 /**
- * @author 李俊锋
+ * @author lee
  * @date 2019/5/15 21:09
  */
 public class Trie {

@@ -3,7 +3,7 @@ package struct.avl;
 import java.util.ArrayList;
 
 /**
- * @author 李俊锋
+ * @author lee
  * @date 2019/5/20 14:50
  */
 public class AVLTree<K extends Comparable<K>, V> {

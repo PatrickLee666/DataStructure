@@ -3,9 +3,10 @@ package struct.segmenttree;
 import java.util.Arrays;
 
 /**
- * @author 李俊锋
+ * @author lee
  * @date 2019/5/13 17:40
  */
+//线段树
 public class SegmentTree<E> {
 
     private E[] tree;//所有的节点

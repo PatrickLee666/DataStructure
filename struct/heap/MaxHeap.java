@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author 李俊锋
+ * @author lee
  * @date 2019/5/11 17:34
  */
-//从0开始
+//从0开始 大顶堆
 public class MaxHeap<E extends Comparable<E>> {
     private List<E> list;
 

@@ -1,10 +1,10 @@
 package struct.RB_Tree;
 
-import java.util.ArrayList;
 /**
- * @author 李俊锋
+ * @author lee
  * @date 2019/5/16 8:41
  */
+//红黑树，只实现了增加
 public class RBTree<K extends Comparable<K>, V> {
 
     private static final boolean RED = true;

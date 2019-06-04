@@ -1,7 +1,7 @@
 package struct.union_find;
 
 /**
- * @author 李俊锋
+ * @author lee
  * @date 2019/5/21 21:00
  */
 //路径压缩优化

@@ -1,7 +1,7 @@
 package struct.segmenttree;
 
 /**
- * @author 李俊锋
+ * @author lee
  * @date 2019/5/13 17:53
  */
 public interface Merger<E> {

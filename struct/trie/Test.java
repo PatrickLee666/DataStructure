@@ -1,7 +1,7 @@
 package struct.trie;
 
 /**
- * @author 李俊锋
+ * @author lee
  * @date 2019/5/15 22:04
  */
 public class Test {

@@ -1,7 +1,7 @@
 package struct.union_find;
 
 /**
- * @author 李俊锋
+ * @author lee
  * @date 2019/5/21 21:07
  */
 public class UnionFind6 implements UF {

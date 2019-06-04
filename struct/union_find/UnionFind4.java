@@ -1,7 +1,7 @@
 package struct.union_find;
 
 /**
- * @author 李俊锋
+ * @author lee
  * @date 2019/5/21 20:41
  */
 //rank优化
